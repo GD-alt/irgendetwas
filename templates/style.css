@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #0d0d0d;
+    position: sticky;
+}
+
+.column {
+    width: 50%;
+}
+
+.footer {
+    padding: 10px 40px;
+    background-color: #0d0d0d;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #e1e1e1;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Lora';
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+
+.header h2 {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: rgb(0, 105, 37);
+    text-decoration: dotted underline;
+    color: rgb(0, 105, 37);
+}
+
+p b {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+}
+
+.content {
+    padding: 0 35px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+code {
+    font-family: 'Fira Code';
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.9rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        font-size: 1.3rem;
+    }
+
+    code {
+        font-size: 1rem;
+    }
+}
