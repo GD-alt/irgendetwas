@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Fira+Code:wght@300&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -59,9 +61,46 @@ h2 {
     color: rgb(0, 105, 37);
 }
 
-p b {
+b {
     color: rgb(0, 105, 37);
     font-family: 'Lora';
+}
+
+i {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+}
+
+u {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+}
+
+s {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+}
+
+code {
+    font-family: 'Fira Code';
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+mark {
+    color: #0d0d0d;
+    background-color: rgb(0, 105, 37);
+    padding: 3px;
+    border-radius: 7px;
+    font-family: 'Lora';
+}
+
+a {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+    text-decoration: underline dotted;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .content {
@@ -70,10 +109,46 @@ p b {
     font-weight: 500;
 }
 
-code {
-    font-family: 'Fira Code';
+.content h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 15px 0 10px 5px;
+    font-family: 'Lora';
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 15px 0 10px 8px;
+    font-family: 'Lora';
+}
+
+.content h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 15px 0 10px 12px;
+    font-family: 'Lora';
+}
+
+.content h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 15px 0 10px 16px;
+    font-family: 'Lora';
+}
+
+.content h5 {
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 500;
+    margin: 15px 0 10px 20px;
+    font-family: 'Lora';
+}
+
+.content h6 {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 15px 0 10px 24px;
+    font-family: 'Lora';
 }
 
 @media (min-width: 768px) {
@@ -91,5 +166,18 @@ code {
 
     code {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 40px 0 20px 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon {
+        order: -1;
     }
 }
