@@ -21,7 +21,6 @@ body {
 }
 
 .column {
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +45,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: normal;
@@ -62,6 +61,7 @@ h2 {
     color: rgb(0, 105, 37);
     text-decoration: dashed underline;
     color: rgb(0, 105, 37);
+    cursor: pointer;
 }
 
 b {
