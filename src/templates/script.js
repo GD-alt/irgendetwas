@@ -1,6 +1,7 @@
 const element = document.querySelector('.icon');
 const bolds = document.querySelectorAll('b');
 const italics = document.querySelectorAll('i');
+const ems = document.querySelectorAll('em');
 const underline = document.querySelectorAll('u');
 const strikethrough = document.querySelectorAll('s');
 const marked = document.querySelectorAll('mark');
@@ -21,6 +22,10 @@ element.addEventListener('click', () => {
 
   italics.forEach(italic => {
     italic.style.color = randomColor;
+  });
+
+  ems.forEach(em => {
+    em.style.color = randomColor;
   });
 
   underline.forEach(underline => {
@@ -73,6 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     italics.forEach(italic => {
         italic.style.color = randomColor;
+    });
+
+    ems.forEach(em => {
+      em.style.color = randomColor;
     });
 
     underline.forEach(underline => {

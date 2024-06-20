@@ -74,6 +74,11 @@ i {
     font-family: 'Lora';
 }
 
+em {
+    color: rgb(0, 105, 37);
+    font-family: 'Lora';
+}
+
 u {
     color: rgb(0, 105, 37);
     font-family: 'Lora';
@@ -111,6 +116,16 @@ a {
     padding: 0 35px;
     font-size: 1rem;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    font-size: 0.9em;
+}
+
+li {
+    font-size: 0.8em;
 }
 
 .content h1 {
@@ -123,7 +138,7 @@ a {
 .content h2 {
     font-size: 1.4rem;
     font-weight: 700;
-    margin: 15px 0 0 8px;
+    margin: 15px 0 10px 8px;
     font-family: 'Lora';
 }
 
@@ -232,6 +247,14 @@ td {
     border: 1px solid #e1e1e1;
 }
 
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+    align-self: center;
+}
+
 @media (min-width: 575px) {
     h1 {
         font-size: 2.4rem;
@@ -242,7 +265,7 @@ td {
     }
 
     .content {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     code {
@@ -261,6 +284,15 @@ td {
         text-align: center;
     }
 
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .header h2 {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
     .icon {
         order: -1;
     }
@@ -275,5 +307,12 @@ td {
 
     input {
         font-size: 0.8rem;
+    }
+
+    img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 5px;
+        margin: 10px 0;
     }
 }
